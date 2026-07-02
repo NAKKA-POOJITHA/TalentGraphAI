@@ -1,5 +1,4 @@
-mvp link :https://talent-graph-ai-slli.vercel.app/
-
+mvp link :https://talent-graph-ai-vyfz.vercel.app/
 
 
 
