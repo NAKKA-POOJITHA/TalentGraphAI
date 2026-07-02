@@ -21,7 +21,6 @@ mvp link :https://talent-graph-ai-slli.vercel.app/
 
 
 
-<img width="959" height="452" alt="Screenshot 2026-07-02 124427" src="https://github.com/user-attachments/assets/fb4c43aa-eae0-40d5-9c93-0f489d803466" />
 
 
 # TalentGraph AI - Intelligent Candidate Discovery MVP
@@ -43,8 +42,7 @@ TalentGraph AI is a production-quality MVP for an AI-powered Intelligent Candida
 - **Frontend**: React, Vite, Tailwind CSS, Lucide React, Chart.js.
 - **Backend**: FastAPI (Python), Uvicorn.
 - **Database**: Supabase PostgreSQL.
-- **Vector Database**: ChromaDB.<img width="959" height="452" alt="Screenshot 2026-07-02 124427" src="https://github.com/user-attachments/assets/44771506-5b21-4ff0-86a5-3ccfd760a87e" />
-
+- **Vector Database**: ChromaDB.
 - **AI Models**: Gemini API (gemini-2.5-flash), Sentence Transformers (BAAI/bge-small-en-v1.5).
 - **Libraries**: PyMuPDF, spaCy (en_core_web_sm), Pydantic.
 
