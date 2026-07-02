@@ -1,4 +1,4 @@
-mvp link :https://talent-graph-ai-slli.vercel.app/
+<img width="958" height="430" alt="image" src="https://github.com/user-attachments/assets/0690913e-aaab-4115-93cc-c6fcfc289678" />mvp link :https://talent-graph-ai-slli.vercel.app/
 
 
 
@@ -12,6 +12,8 @@ mvp link :https://talent-graph-ai-slli.vercel.app/
 
 
 
+
+<img width="958" height="430" alt="Screenshot 2026-07-02 152247" src="https://github.com/user-attachments/assets/26c156a2-70e5-4499-8719-a9970dbf7791" />
 
 
 
