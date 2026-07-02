@@ -1,3 +1,29 @@
+mvp link :https://talent-graph-ai-vyfz.vercel.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="958" height="430" alt="Screenshot 2026-07-02 152247" src="https://github.com/user-attachments/assets/26c156a2-70e5-4499-8719-a9970dbf7791" />
+
+
+
+
+
+
+
+
+
+
+
 # TalentGraph AI - Intelligent Candidate Discovery MVP
 
 TalentGraph AI is a production-quality MVP for an AI-powered Intelligent Candidate Discovery system. Unlike traditional keyword-matching ATS systems, it ranks candidates using deep semantic understanding, vector embeddings, spacy-based NER, and Gemini-based multi-factor reranking.
