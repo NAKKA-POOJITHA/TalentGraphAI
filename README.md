@@ -1,4 +1,4 @@
-<img width="958" height="430" alt="image" src="https://github.com/user-attachments/assets/0690913e-aaab-4115-93cc-c6fcfc289678" />mvp link :https://talent-graph-ai-slli.vercel.app/
+mvp link :https://talent-graph-ai-slli.vercel.app/
 
 
 
