@@ -43,8 +43,19 @@ def discover_candidates(
         
         logger.info("Querying ChromaDB for similar candidates...")
         similar_candidates = ChromaService.similarity_search(jd_embedding, limit=limit)
+        
+        # Filter: Only keep candidates that actually exist in the database for this recruiter
+        with get_db_cursor() as cursor:
+            cursor.execute("SELECT id FROM candidates WHERE recruiter_id = %s", (current_user["id"],))
+            db_candidate_ids = {str(row["id"]) for row in cursor.fetchall()}
+            
+        similar_candidates = [
+            item for item in similar_candidates
+            if str(item["candidate_id"]) in db_candidate_ids
+        ]
+        
         retrieval_latency = time.time() - retrieval_start
-        logger.info(f"Candidate retrieval completed in {retrieval_latency:.3f} seconds. Found {len(similar_candidates)} candidates.")
+        logger.info(f"Candidate retrieval completed in {retrieval_latency:.3f} seconds. Found {len(similar_candidates)} valid candidates.")
         
         if not similar_candidates:
             return {
